@@ -3,6 +3,7 @@ Pure Node.js and NPM on Nano Server
 
 ## Contents
 This repo contains two files:
+
 1. `build.bat` - the executable that downloads everything and builds the docker image
 2. `Dockerfile` - the docker build configuration 
 
@@ -11,6 +12,7 @@ Open a command prompt as an Administrator and within the same directory, run `.\
 
 ## Process
 The batch file automatically performs the following:
+
 1. Downloads the latest version of Node.js LTS (and NPM)
 2. Extracts the .msi
 3. Downloads the latest version of the `microsoft/nanoserver` docker image
