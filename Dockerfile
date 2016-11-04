@@ -1,7 +1,7 @@
 # escape=`
 
 FROM microsoft/nanoserver:latest
-MAINTAINER Joshua Davis <joshua.davis@microsoft.com>
+MAINTAINER Joshua Davis <me@jdav.is>
 
 # copy nodejs to nanoserver
 RUN mkdir "C:\nodejs"
